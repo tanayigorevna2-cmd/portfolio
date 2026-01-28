@@ -51,6 +51,7 @@ button{
    border: none;
 }
     .button {
+       margin-top: 100px;    
       padding: 10px 20px;
       font-size:18px; /*clamp(14px, 2vw, 18px);*/
       cursor: pointer;
@@ -938,3 +939,4 @@ h3
   pointer-events: auto;
 
 }
+
