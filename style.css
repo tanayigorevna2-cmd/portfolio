@@ -323,10 +323,10 @@ display: block;
   bottom: -70px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 42px;           /* ЗБІЛЬШИЛИ */
+  font-size: 42px;          
   
   animation: scrollDown 1.6s ease-in-out infinite;
-  pointer-events: none;     /* просто підказка */
+  pointer-events: none;   
 }
 
 @keyframes scrollDown {
@@ -353,9 +353,7 @@ display: block;
   }
 }
 /***********************************/
-.about-bg{
 
-}
 .container{
   max-width: 1430px;
   width: 100%;
@@ -436,7 +434,6 @@ display: block;
 }
 @media (max-width: 650px) {
   .about {
-   
    max-width:  600px;
   }}
   @media (max-width: 562px) {
@@ -451,12 +448,7 @@ display: block;
   margin-bottom: 30px;
 }
 }
-   @media (max-width: 380px) {
-  .about {
-    padding: 10px ;
-
-    
-  }}
+  
 /*****************************************/
 /* Контейнер для біжучої стрічки */
 .scrolling-text {
@@ -980,4 +972,5 @@ h3
   pointer-events: auto;
 }
 /*****************/
+
 
