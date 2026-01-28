@@ -9,7 +9,9 @@ body {
   
 }
 /*******************/
-
+model-viewer ::part(control-bar) {
+  display: none;
+}
 
 /********************/
 
@@ -972,5 +974,6 @@ h3
   pointer-events: auto;
 }
 /*****************/
+
 
 
