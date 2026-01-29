@@ -39,24 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
   //////////////////////////////////////
-document.querySelectorAll('.face').forEach(face => {
-  const video = face.querySelector('.cube-video');
-  const canvas = face.querySelector('.cube-canvas');
-  const ctx = canvas.getContext('2d');
 
-  // підганяємо розмір
-  canvas.width = face.clientWidth;
-  canvas.height = face.clientHeight;
 
-  video.play();
-
-  function draw() {
-    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-    requestAnimationFrame(draw);
-  }
-
-  video.addEventListener('play', draw);
-});
 
   //////////////////////////////////////////
   // Анімація секції "about" при скролі
@@ -179,5 +163,6 @@ document.querySelectorAll('.face').forEach(face => {
   }
 
 });
+
 
 
