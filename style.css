@@ -15,14 +15,7 @@ video::-webkit-media-controls-start-playback-button {
   display: none !important;
   -webkit-appearance: none;
 }
-.cube-video {
-  display: none;
-}
 
-.cube-canvas {
-  width: 100%;
-  height: 100%;
-}
 
 
 /********************/
@@ -986,6 +979,7 @@ h3
   pointer-events: auto;
 }
 /*****************/
+
 
 
 
